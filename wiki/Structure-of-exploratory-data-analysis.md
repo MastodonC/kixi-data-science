@@ -4,11 +4,11 @@ Sunny captured her approach in this blog post [here](https://witanblog.wordpress
 ### Steps
 
 * **Describe (annotate)** what every field should contain, identify relevant fields
-* **Assess data quality**: for relevant fields, number of empty values, expected type, and check whether the values are what we expect. Consider if any missing values can be imputed.
-* **Clean** if necessary/possible. Map string variables such as dates to integer representations if necessary.
 * **Summarize** the values:
   - for numerical fields: summarize (5 values), histogram
   - for categorical fields: counts, bar charts of the largest categories
+* **Assess data quality**: for relevant fields, number of empty values, expected type, and check whether the values are what we expect. Consider if any missing values can be imputed.
+* **Clean** if necessary/possible. Map string variables such as dates to integer representations if necessary.
 * **Establish the distribution** of key variables, since this will inform which modelling tools can be applied.
 * **Correlations**: the more 'inspiration' part of the process - depending on context, trying to detect relationships that are meaningful for the problem at hand.
 
