@@ -12,7 +12,7 @@ This should help us retrieve past experience when approaching a new project that
 **When to use**:
 When we want to project a timeseries forward based on just the information it contains by itself (value - time).  This is a bit of a quick-fix method if time is short or no obvious correlations have been found which could be used to do a sensible regression.
 
-**Project this has been used in**:
+**Projects this has been used in**:
 
 * Fast-SBRI: predict patients coming into the different wards of the hospital
 https://github.com/MastodonC/kixi.fast-SBRI
