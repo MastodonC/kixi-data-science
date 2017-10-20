@@ -28,6 +28,8 @@ https://github.com/MastodonC/employment-exploration
 #### Latent Dirichlet Allocation
 ...
 
+#### Cohort Component Models
+...
 
 ### Visualization/type of diagram
 Which is the most effective, non-trivial way to represent a certain type of data?  What have you used in the past?
