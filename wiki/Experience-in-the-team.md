@@ -13,9 +13,10 @@ This should help us retrieve past experience when approaching a new project that
 When we want to project a timeseries forward based on just the information it contains by itself (value - time).  This is a bit of a quick-fix method if time is short or no obvious correlations have been found which could be used to do a sensible regression.
 
 **Project this has been used in**:
-Fast-SBRI: predict patients coming into the different wards of the hospital
+
+* Fast-SBRI: predict patients coming into the different wards of the hospital
 https://github.com/MastodonC/kixi.fast-SBRI
-Employment for B&NES: predict the next 20 years of employment in the B&NES area
+* Employment for B&NES: predict the next 20 years of employment in the B&NES area
 https://github.com/MastodonC/employment-exploration
 
 **Current toolset**: we have used the R implementation.  There's a default _arima_ function in R, and the forecast package adds a _forecast_ function which seems to be slightly more robust than the default _predict_ function.
