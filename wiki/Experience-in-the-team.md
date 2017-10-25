@@ -11,7 +11,7 @@ This should help us retrieve past experience when approaching a new project that
 [Wikipedia definition](https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average)
 
 **When to use**:
-When we want to project a timeseries forward based on just the information it contains by itself (value - time).  This is a bit of a quick-fix method if time is short or no obvious correlations have been found which could be used to do a sensible regression.
+When we want to project a timeseries forward based on just the information it contains by itself (value - time).  This is a bit of a quick-fix method if time is short or no obvious correlations have been found which could be used to do a sensible regression. It's good for incorporating seasonal patterns. 
 
 **Relevant Projects**:
 
