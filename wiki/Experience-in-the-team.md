@@ -38,10 +38,22 @@ We have used the R implementation.  There's a default _arima_ function in R, and
 
 **When to use**:
 
-**Projects this has been used in**:
+**Projects this has been used in**: Arup reports analysis; Defra animal disease detection; Building reports for IUK; ONS P5
+
+**Current toolset/libraries**: 
+
+**Who is expert in it**: Henry, Jase. Mike/Seb starting to get involved via ONS work. 
+
+#### Clustering 
+**Definition**:
+
+**When to use**:
+
+**Projects this has been used in**: Arup reports analysis; C40; Policy Lab employment analysis
 
 **Current toolset/libraries**:
 
+**Who is expert in it** Seb, Fran
 
 #### Cohort Component Models
 **Definition**:
@@ -57,3 +69,5 @@ We have used the R implementation.  There's a default _arima_ function in R, and
 ### Visualization/type of diagram
 
 Which is the most effective, non-trivial way to represent a certain type of data?  What have you used in the past?
+
+**Sankey diagrams** are a big help in representing complex flows of people or things through a set of stages or categories, for example animals from symptom to diagnosis, students changing schools in SEND modela. 
