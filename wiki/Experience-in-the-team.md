@@ -57,13 +57,30 @@ We have used the R implementation.  There's a default _arima_ function in R, and
 
 #### Cohort Component Models
 **Definition**:
+Cohort Component models are used for population estimates and projections.
+"The concepts of population estimates and population projections often are confused even though the distinction between the two is relatively simple and straightforward. Both concepts involve the generation of a number that is intended to indicate the size of the population of a given geographic area at a specific point in time. Both techniques make use of the basic demographic equation:
+```
+P2 = P1 + B - D + I - O
+```
+which indicates that the population at any given point in time (P2) is a function of the population at a previous point in time (P1) plus the amount of natural increase (births minus deaths) and the net migration (in-migration minus out-migration) during the interim.
+...
+Population change involves three separate components: births, deaths, and migration. Component models consider the separate effects of each of these factor and require more comprehensive and detailed data than usually are available to local planners. Models that use the net effects of the three components are called noncomponent models."
+(<http://www-personal.umich.edu/~steiss/page55.html>)
+
+In short, the population is projected by:
+
+* aging all age groups by 1 year
+* adding births and incoming migration based on past births and migration (linear regression or other)
+* subtracting deaths and outgoing  migration based on past deaths and migration
 
 **When to use**:
+This was used in the context of the GLA - transcribing one of their existing models into code.  We have discontinued work on demography models, but they may still be a side factor in future models.
 
 **Projects this has been used in**:
 
-**Current toolset/libraries**:
 
+**Current toolset/libraries**:
+Straightforward clojure.
 
 
 ### Visualization/type of diagram
