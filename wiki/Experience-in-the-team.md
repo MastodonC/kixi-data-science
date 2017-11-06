@@ -23,6 +23,8 @@ https://github.com/MastodonC/employment-exploration
 **Current toolset/libraries**:
 We have used the R implementation.  There's a default _arima_ function in R, and the forecast package adds a _forecast_ function which seems to be slightly more robust than the default _predict_ function.
 
+**Who is expert in it**: Elise, Seb
+
 #### Markov Chain Monte Carlo
 **Definition**:
 
@@ -32,6 +34,7 @@ We have used the R implementation.  There's a default _arima_ function in R, and
 
 **Current toolset/libraries**:
 
+**Who is expert in it**: Henry, Seb
 
 #### Latent Dirichlet Allocation
 **Definition**:
@@ -77,11 +80,12 @@ In short, the population is projected by:
 This was used in the context of the GLA - transcribing one of their existing models into code.  We have discontinued work on demography models, but they may still be a side factor in future models.
 
 **Projects this has been used in**:
-
+GLA population models: https://github.com/MastodonC/witan.models.demography
 
 **Current toolset/libraries**:
 Straightforward clojure.
 
+**Who is expert in it**: Sunny, Seb
 
 ### Visualization/type of diagram
 
