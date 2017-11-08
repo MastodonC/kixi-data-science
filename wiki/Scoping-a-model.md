@@ -1,11 +1,11 @@
 Sometimes, the scope is clear and given by the customer.  Unfortunately, that is not always the case: sometimes the question is more 'what can you do for us' and then it's up to us to trigger the right discussions to get to the question(s) we want to answer.  This is what we call the discovery process.
 
-### General points
+### General questions
 
 (some inspired by <https://dataingovernment.blog.gov.uk/2017/09/04/introducing-agile-into-an-established-data-science-team/> )
 These are questions we should ask ourselves when scoping.
 
-#### what is the problem we're trying to solve?
+#### What is the problem we're trying to solve?
 This is not trivial: it takes some interviewing people to get to a pain they experience on a regular basis.  It pays off to use drilling down techniques like the 5 whys (<https://en.wikipedia.org/wiki/5_Whys>) - sometimes the pain people experience has a non-obvious cause.
 
 Another angle of approach is to look at it from a quantitative perspective: what will make them more effective, what will save more lives, what will save more money.  This also takes some understanding of the processes involved: the initial interviews should be about understanding the process in general.  What are the costs?
@@ -17,20 +17,20 @@ Thirdly we have our own objective: we need a model:
 * they couldn't make by themselves in excel: that leverages our expertise (with possible exception of a model that has grown too complicated and too silo'ed).
 
 
-#### who are our users?
+#### Who are our users?
 
 This is interlinked with the problem question of previous paragraph.  We need to find fairly quickly who will use our model.  They may not be the same people who we talk to initially (decision-maker level) but they _will_ be the people we need to talk to to get the necessary domain knowledge.  Relevant heads of services might be the right people to talk to.
 
-#### what constraints are we operating within?
+#### What constraints are we operating within?
 
 There are sometimes legal constraints, it pays to find out which they are fairly early on (like for instance privacy).
 
-#### what is the technology legacy and who else has solved this problem
+#### What is the technology legacy and who else has solved this problem
 
 How did they do it so far?
 Do we have competitors?
 
-#### what data sources do we have access to?
+#### What data sources do we have access to?
 
 As mentioned in the agile data science manifesto (<https://www.oreilly.com/ideas/a-manifesto-for-agile-data-science>) - this is also one of the 'stakeholders' we need to listen to.  Which data we have access to and what it reveals also imposes its own constraints on what we can do.  A minimum of exploratory data analysis is always part of the scope process.
 
@@ -42,7 +42,7 @@ A major caveat here is that getting data takes time.  To quote the [blog post](h
 
 While waiting it might be a good idea to have other projects lined up so as not to waste time before we have a scope.
 
-#### what data science methodologies could we use?
+#### What data science methodologies could we use?
 
 It's important for us to build up expertise in an array of techniques - the 'Experience' page in the wiki could help us leverage techniques we've already tried, but it's important for us to be open and keep on reading up on what's out there.
 
@@ -50,7 +50,30 @@ There's again a strategic goal here: it makes sense for us to get good at techni
 
 #### Ethical implications
 
-It's worth thinking through ethical implications and side-effects (possibly unintended) of delivering our model.  This framework could help <https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/524298/Data_science_ethics_framework_v1.0_for_publication__1_.pdf>.
+It's worth thinking through ethical implications and side-effects (possibly unintended) of delivering our model.  This framework could help <https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/524298/Data_science_ethics_framework_v1.0_for_publication__1_.pdf>.  Or the [ODI ethical Canvas](https://theodi.org/the-data-ethics-canvas).
+
+
+### How to answer those questions
+
+#### Making sure to get the right people
+
+This is a lot about identifying who will use the models, but also who knows the domains best. It seems like heads of services responsible of implementing the day-to-day management have the best picture.
+
+#### Where is the money?
+
+Understanding the financial situation, what are the biggest costs and the biggest incomes is a good way to find the most pressing issues.
+It can sometimes be good to talk to the budgeting/finance department to clarify how budgets are distributed/forecasted etc.
+
+#### What are the targets/metrics?
+
+The local authorities often have targets they need to meet, whether for local reasons (political) or imposed by central government.
+
+#### Open questions
+
+What is the biggest worry, what is the biggest stress?
+If you could have a projection of a certain number, what would it be?
+
+For every question, ask why and how until the picture is clear.
 
 ### Time management
 
@@ -60,7 +83,7 @@ This is a difficult topic, and again it might be worth freezing the project unti
 
 ### Tips
 
-#### workshops
+#### Workshops
 
 Starting off with a workshop to understand the domain is key.  The first aim is to understand in broad line the work that is going on in the domain and to understand costs, legal constraints, outside pressures, and issues.
 
@@ -68,11 +91,11 @@ In a face-to-face workshop questions can be followed up with questions, until we
 
 It's also important here to work out fast if we're talking to the right stakeholders or not.
 
-#### weekly catchups
+#### Weekly catchups
 
 Setting up weekly catchups (or more often even) in the discovery phase is invaluable.  There will be extra questions after the fact, and there will probably be following up on obtaining data sources.
 
-#### slack channel
+#### Slack channel
 
 Having a dedicated slack channel shared with the customer (like the one for Tower Hamlets) is a good way to get fast feedback on questions.
 
