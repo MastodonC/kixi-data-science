@@ -1,6 +1,6 @@
 Sometimes, the scope is clear and given by the customer.  Unfortunately, that is not always the case: sometimes the question is more 'what can you do for us' and then it's up to us to trigger the right discussions to get to the question(s) we want to answer.  This is what we call the discovery process.
 
-### General points
+### General questions
 
 (some inspired by <https://dataingovernment.blog.gov.uk/2017/09/04/introducing-agile-into-an-established-data-science-team/> )
 These are questions we should ask ourselves when scoping.
@@ -51,6 +51,27 @@ There's again a strategic goal here: it makes sense for us to get good at techni
 #### Ethical implications
 
 It's worth thinking through ethical implications and side-effects (possibly unintended) of delivering our model.  This framework could help <https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/524298/Data_science_ethics_framework_v1.0_for_publication__1_.pdf>.
+
+
+### How to answer those questions
+
+#### Making sure to get the right people
+
+This is a lot about identifying who will use the models, but also who knows the domains best. It seems like heads of services responsible of implementing the day-to-day management have the best picture.
+
+#### Where is the money?
+
+Understanding the financial situation, what are the biggest costs and the biggest incomes is a good way to find the most pressing issues.
+It can sometimes be good to talk to the budgeting/finance department to clarify how budgets are distributed/forecasted etc.
+
+#### What are the targets/metrics?
+
+The local authorities often have targets they need to meet, whether for local reasons (political) or imposed by central government.
+
+#### Open questions
+
+What is the biggest worry, what is the biggest stress?
+If you could have a projection of a certain number, what would it be?
 
 ### Time management
 
