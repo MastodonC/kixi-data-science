@@ -50,7 +50,7 @@ There's again a strategic goal here: it makes sense for us to get good at techni
 
 #### Ethical implications
 
-It's worth thinking through ethical implications and side-effects (possibly unintended) of delivering our model.  This framework could help <https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/524298/Data_science_ethics_framework_v1.0_for_publication__1_.pdf>.
+It's worth thinking through ethical implications and side-effects (possibly unintended) of delivering our model.  This framework could help <https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/524298/Data_science_ethics_framework_v1.0_for_publication__1_.pdf>.  Or the [ODI ethical Canvas](https://theodi.org/the-data-ethics-canvas).
 
 
 ### How to answer those questions
