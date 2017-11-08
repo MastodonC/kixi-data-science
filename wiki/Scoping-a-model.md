@@ -73,6 +73,8 @@ The local authorities often have targets they need to meet, whether for local re
 What is the biggest worry, what is the biggest stress?
 If you could have a projection of a certain number, what would it be?
 
+For every question, ask why and how until the picture is clear.
+
 ### Time management
 
 The time management on scoping is a bit of a moving target.  We should endeavour to have a number of possible "questions" lined up as quickly as possible, and to test them against the customer (and other similar customers) iteratively until we find something that works. We should aim for a week to boot up our domain knowledge, and then a week at most between hypotheses until we get one that works, to get the process moving.
