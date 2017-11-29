@@ -39,13 +39,13 @@ We have used the R implementation.  There's a default _arima_ function in R, and
 #### Latent Dirichlet Allocation
 **Definition**:
 
-**When to use**:
+**When to use**: When you need to find the topics of a corpus and predict the topics of a particular bit of text.
 
 **Projects this has been used in**: Arup reports analysis; Defra animal disease detection; Building reports for IUK; ONS P5
 
-**Current toolset/libraries**: 
+**Current toolset/libraries**: https://github.com/MastodonC/kixi.mallet
 
-**Who is expert in it**: Henry, Jase. Mike/Seb starting to get involved via ONS work. 
+**Who is expert in it**: Henry, Jase, Fran, Bruce. Mike/Seb starting to get involved via ONS work. 
 
 #### Clustering 
 **Definition**:
