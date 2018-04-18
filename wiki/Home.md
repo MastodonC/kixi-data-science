@@ -6,6 +6,3 @@ Current plan:
 * Structure of data science work
 * how to elicit a scope
 * Tips
-* Tools
-* Good open data sources
-* Patterns: what do we use for which kind of problem
