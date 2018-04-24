@@ -10,7 +10,18 @@ This is not trivial: it takes some interviewing people to get to a pain they exp
 
 Another angle of approach is to look at it from a quantitative perspective: what will make them more effective, what will save more lives, what will save more money.  This also takes some understanding of the processes involved: the initial interviews should be about understanding the process in general.  What are the costs?
 
-Thirdly we have our own objective: we need a model:
+Paraphrasing [this blog post](http://www.mastodonc.com/witan/2017/11/15/getting-a-data-analytics-project-started.html) by our fearless leader:
+The key to successful data projects will often rely on the clarity of the question at its heart. This means finding a question that’s focused on your goal and being clear how data can answer it. You need to consider:
+
+* Is your question simple and clear? Does it contain a precise hypothesis?
+* How will data help answer this question?
+* Who is interested in this question and how will they expect to see it answered?
+* How will results be delivered?
+* How will answering this question allow action to be taken?
+* How will you re-evaluate the question based on early data exploration?
+* The impact of timings on your question, particularly in fast-changing datasets
+
+We have our own objectives: if we want to productize we need a model:
 
 * that we can use for other customers: generic enough
 * that we can demonstrate makes a difference, from decision-maker level (to be able to sell it).
